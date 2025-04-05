@@ -3,7 +3,7 @@
     {
       "name": "Gold Member Co.",
       "address": "123 Gold Lane, CA",
-      "phone": "555-1234",
+      "phone": "800-123-4567",
       "website": "https://goldmember.com",
       "image": "gold-logo.png",
       "level": 3
@@ -11,7 +11,7 @@
     {
       "name": "Silver Member Inc.",
       "address": "456 Silver St, CA",
-      "phone": "555-5678",
+      "phone": "800-987-6543",
       "website": "https://silvermember.com",
       "image": "silver-logo.png",
       "level": 2
@@ -19,7 +19,7 @@
     {
       "name": "Community Member LLC",
       "address": "789 Main Rd, CA",
-      "phone": "555-9999",
+      "phone": "800-192-8374",
       "website": "https://communitymember.com",
       "image": "member-logo.png",
       "level": 1
