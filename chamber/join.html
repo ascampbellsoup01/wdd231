@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/join.js" defer></script>
+</head>
+<body>
+    <form method="get" action="thanks.html">
+        <label for="first-name" title="Enter your first name">First Name:
+          <input type="text" id="first-name" name="firstName" required autocomplete="given-name" title="First Name">
+        </label>
+        <label for="last-name" title="Enter your last name">Last Name:
+          <input type="text" id="last-name" name="lastName" required autocomplete="family-name" title="Last Name">
+        </label>
+        <label for="org-title" title="Enter your organizational title">Organizational Title:
+          <input type="text" id="org-title" name="organizationTitle" autocomplete="organization-title" pattern="[A-Za-z\- ]{7,}" title="Organizational Title">
+        </label>
+        <label for="email" title="Enter your email">Email:
+          <input type="email" id="email" name="email" required autocomplete="email" placeholder="example@email.com" title="Email">
+        </label>
+        <label for="mobile-phone" title="Enter your mobile phone number">Mobile Phone:
+          <input type="tel" id="mobile-phone" name="mobilePhone" required autocomplete="tel" title="Mobile Phone">
+        </label>
+        <label for="organization" title="Enter your organization's name">Organization Name:
+          <input type="text" id="organization" name="organization" required autocomplete="organization" title="Organization">
+        </label>
+        <label for="membership-level" title="Select your membership level">Membership Level:
+          <select id="membership-level" name="membershipLevel" title="Membership Level">
+            <option value="np">NP Membership</option>
+            <option value="bronze">Bronze Membership</option>
+            <option value="silver">Silver Membership</option>
+            <option value="gold">Gold Membership</option>
+          </select>
+        </label>
+        <label for="org-description" title="Enter your organization description">Organization Description:
+          <textarea id="org-description" name="organizationDescription" title="Organization Description"></textarea>
+        </label>
+        <input type="hidden" id="timestamp" name="timestamp">
+        <input type="submit" value="Submit">
+    </form>
+    <div class="membership-card" id="bronze-card">
+        <h3>Bronze Membership</h3>
+        <a href="#bronze-modal" onclick="openModal('bronze-modal')">Learn More</a>
+      </div>
+      <div id="bronze-modal" class="modal">
+        <div class="modal-content">
+          <h3>Bronze Membership Benefits</h3>
+          <p>Includes basic event access and networking opportunities.</p>
+          <button onclick="closeModal('bronze-modal')">Close</button>
+        </div>
+    </div>
+    <footer>
+        <p>© <span id="copyright"></span> Aaron Campbell | WDD 231</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
+
