@@ -116,15 +116,19 @@ input[type="submit"]:hover {
     text-align: center;
 }
 
-footer {
-    text-align: center;
-    margin-top: 20px;
-    color: #555;
-    font-size: 14px;
-}
-
 footer span {
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #004080;
+    color: #fff;
+}
+
+footer p, a {
+    color: #fff;
 }
 
 nav {
