@@ -1,0 +1,15 @@
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main li {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    margin: 0.5rem;
+    background-color: #fff;
+}
+
+main li:hover {
+    background-color: #f0f0f0;
+}
