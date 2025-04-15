@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Body Shop Information Website</title>
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <script src="scripts/home.js" defer></script>
     <meta name="description" content="An informational website about our auto body shop services, customer reviews, and contact details.">
     <meta name="author" content="Aaron Campbell">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -18,15 +21,6 @@
         <h1>Auto Body Shop Information Website</h1>
         <p><strong>Site Name:</strong> Auto Body Info Hub</p>
         <p><em>Reason:</em> This name highlights the core function of the website as a centralized hub for auto body shop information.</p>
-        <nav>
-            <ul>
-                <li><a href="#site-purpose">Site Purpose</a></li>
-                <li><a href="#scenarios">Scenarios</a></li>
-                <li><a href="#color-schema">Color Schema</a></li>
-                <li><a href="#typography">Typography</a></li>
-                <li><a href="#wireframe">Wireframe</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
         <section id="site-purpose">
@@ -66,7 +60,8 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Auto Body Info Hub. All rights reserved.</p>
+        <p>&copy; <span id="currentYear"></span> Aaron Campbell, California, USA</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>
