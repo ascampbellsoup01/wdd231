@@ -54,6 +54,12 @@ h2 {
     color: #B30900
 }
 
+header img {
+    width: 10rem;
+    height: auto;
+    padding: 1rem;
+}
+
 main {
     padding: 2rem;
 }
