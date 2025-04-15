@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Richard Nixon Presidential Library",
+        "address": "18001 Yorba Linda Blvd, Yorba Linda, CA",
+        "description": "A museum dedicated to the life and legacy of President Nixon.",
+        "image": "nixon-library.webp"
+    },
+    {
+        "name": "Jessamyn West Park",
+        "address": "19115 Yorba Linda Blvd, Yorba Linda, CA",
+        "description": "A serene park with playgrounds, picnic areas, and sports courts.",
+        "image": "jessamyn-west-park.webp"
+    },
+    {
+        "name": "Black Gold Golf Club",
+        "address": "1 Black Gold Dr, Yorba Linda, CA",
+        "description": "A challenging golf course with stunning views and excellent facilities.",
+        "image": "black-gold-golf-club.webp"
+    },
+    {
+        "name": "Yorba Linda Heritage Museum",
+        "address": "5700 Susanna Bryant Dr, Yorba Linda, CA",
+        "description": "A museum showcasing the rich history of Yorba Linda and its community.",
+        "image": "yorba-heritage-museum.webp"
+    },
+    {
+        "name": "Box Canyon Park",
+        "address": "22400 Foxtail Dr, Yorba Linda, CA",
+        "description": "A family-friendly park with a pirate-themed playground and picnic spots.",
+        "image": "box-canyon-park.webp"
+    },
+    {
+        "name": "East Lake Village",
+        "address": "5325 Village Center Dr, Yorba Linda, CA",
+        "description": "A picturesque neighborhood with a man-made lake and walking trails.",
+        "image": "east-lake-village.webp"
+    },
+    {
+        "name": "Yorba Regional Park",
+        "address": "7600 E La Palma Ave, Anaheim, CA",
+        "description": "A sprawling park with bike rentals, picnic areas, and scenic trails.",
+        "image": "yorba-regional-park.webp"
+    },
+    {
+        "name": "Yorba Linda Community Center",
+        "address": "4501 Casa Loma Ave, Yorba Linda, CA",
+        "description": "A 28,000 square foot facility with banquet rooms, meeting spaces, and beautiful grounds, perfect for hosting events and gatherings.",
+        "image": "yorba-linda-community-center.webp"
+    }
+]
