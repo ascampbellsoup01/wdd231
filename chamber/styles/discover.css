@@ -10,8 +10,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #004080; /* Dark blue background */
-    color: #fff; /* White text for contrast */
+    background: #004080;
+    color: #fff;
     padding: 1em;
 }
 
@@ -86,7 +86,7 @@ nav a {
 .card button {
     display: inline-block;
     padding: 0.5em 1em;
-    background: #ff8000;
+    background: #004080;
     color: white;
     text-decoration: none;
     border: none;
@@ -96,7 +96,7 @@ nav a {
 }
 
 .card button:hover {
-    background: #e67300;
+    background: #004080;
 }
 
 footer {
