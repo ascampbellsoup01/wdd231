@@ -116,3 +116,63 @@ footer a {
 footer a:hover {
     color: #FFD2D2;
 }
+
+@media (max-width: 768px) {
+    main ul {
+        padding: 0.5rem;
+    }
+
+    main li {
+        padding: 0.4rem;
+        margin: 0.4rem;
+        font-size: 0.9rem;
+    }
+
+    main li:hover {
+        background-color: #f0f0f0;
+    }
+
+    body {
+        padding: 1rem;
+    }
+
+    header, footer {
+        padding: 0.75rem;
+    }
+
+    header img {
+        width: 8rem;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    button {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    blockquote {
+        margin: 0.75rem 0;
+        padding-left: 0.75rem;
+        font-size: 0.9rem;
+    }
+
+    footer a {
+        font-size: 0.9rem;
+        text-decoration: underline;
+    }
+}
