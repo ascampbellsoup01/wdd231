@@ -25,5 +25,8 @@ if (!lastVisit) {
 
 localStorage.setItem("lastVisit", currentVisit);
 
+console.log("Script is running");
+console.log("Last visit:", localStorage.getItem("lastVisit"));
+
 document.getElementById("copyright").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = document.lastModified;
