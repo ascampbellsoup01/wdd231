@@ -110,3 +110,28 @@ footer a {
 footer a:hover {
     color: #FFD2D2;
 }
+
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+ 
+@media (max-width: 768px) {
+    header img {
+      width: 150px;
+      margin: 0 auto;
+    }
+
+    section img {
+        width: 150px;
+        margin: 0 auto;
+      }
+}
